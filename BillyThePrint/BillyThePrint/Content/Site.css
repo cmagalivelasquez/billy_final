@@ -1,0 +1,139 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+//*.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+header.masthead {
+    background: url('http://www.scarymommy.com/wp-content/uploads/2016/12/shutterstock_345268949.jpg?w=900') no-repeat center center scroll;
+    /*background: url('../imagenes/portada.jpg') no-repeat center center scroll;*/
+    -webkit-background-origin: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+    header.masthead > .overlay {
+        padding: 5rem 0;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+@media (min-width: 992px) {
+    header.masthead > .overlay {
+        padding: 10rem 0;
+    }
+}
+
+.titulo {
+    color: white;
+    font-family: 'Segoe UI',Light, sans-serif;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.titulo2 {
+    color: black;
+    font-family: 'Segoe UI',Light, sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.overlay {
+width:100%;
+}
+
+.nosotros {
+    color: black;
+    font-family: 'Segoe UI',Light, sans-serif;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+/*contact*/
+section#contact {
+    background-color: #212529;
+    background-image: url('imagenes/estrellas.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    section#contact .section-heading {
+        color: #fff;
+    }
+
+    section#contact .form-group {
+        margin-bottom: 25px;
+    }
+
+        section#contact .form-group input,
+        section#contact .form-group textarea {
+            padding: 20px;
+        }
+
+            section#contact .form-group input.form-control {
+                height: auto;
+            }
+
+            section#contact .form-group textarea.form-control {
+                height: 248px;
+            }
+
+    section#contact .form-control:focus {
+        border-color: #fed136;
+        box-shadow: none;
+    }
+
+    section#contact ::-webkit-input-placeholder {
+        font-weight: 700;
+        color: #ced4da;
+        font-family: 'Segoe UI', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+    section#contact :-moz-placeholder {
+        font-weight: 700;
+        color: #ced4da;
+        /* Firefox 18- */
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+    section#contact ::-moz-placeholder {
+        font-weight: 700;
+        color: #ced4da;
+        /* Firefox 19+ */
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+    section#contact :-ms-input-placeholder {
+        font-weight: 700;
+        color: #ced4da;
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+
